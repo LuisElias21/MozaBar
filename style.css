@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linksBarra{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+ /* .linksBarra:hover{
+    background-color: rgba(247, 164, 0, 0.973);
+}
+*/
+.encabezado {
+    flex-direction:row;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+.imagenLogo{
+        width: 10%;
+}
+.fraseCentro {
+    align-items: center;
+    width: 500%;
+    position: fixed;    
+    display: flex;
+    justify-content:center
+}
